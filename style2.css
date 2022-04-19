@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    
+    background-image: radial-gradient(circle at 26.3% 36.32%, #fc6dc8 0, #e065c0 12.5%, #c25db5 25%, #a252a5 37.5%, #814692 50%, #623a7d 62.5%, #482f6a 75%, #312559 87.5%, #1c1d49 100%);}
+.cabecera{
+    width: 50%;
+    text-align: center;
+}
+.nav{
+    max-width: 100%;
+    height: 40px;
+    background: #7D3C98;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+a{
+    background: rebeccapurple;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+a:hover{
+    background: #D2B4DE;
+}
+header{
+    height: 100vh;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+.container{
+    margin: 20px;
+    /* padding: 20px; */
+    width: 100%;
+    height: 300px;
+
+}
+.container-img{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+/* imagenes */
+
+.img1{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.img2{
+    position: relative;
+    top: 20px;
+    left: 69px;
+}
+.img3{
+    position: relative;
+    bottom:-50px;
+    left: 20px;
+}
+.img4{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.img5{
+    position: relative;
+    bottom: 30px;
+    left: 90px;
+}
+.img6{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.img7{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.img8{
+    position: relative;
+    top: 2px;
+    right: 30px;
+}
+.img9{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+.img10{
+    position: relative;
+    bottom:20px;
+    left: 20px;
+}
+.img11{
+    position: relative;
+    bottom: 70px;
+    right: 15px;
+}
+.img12{
+    position: relative;
+    bottom: 10px;
+    right: 40px;
+}
+.heder_title1{
+    font-size: 4rem;
+    margin: 20px 0px;
+}
+.heder_title2{
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+img{
+    width: 90%;
+    height: 80%;
+}
+
+button{
+    margin-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    background: #7D3C98 ;
+}
+button:hover{
+    margin-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    background: #BB8FCE ;
+}
+
+.video{
+    margin-top: 20px;
+}
+video{
+    width: 80%;
+    height: auto;
+}
+.heder_wave{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
